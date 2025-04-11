@@ -60,12 +60,8 @@ Random Forests: An ensemble method that combines multiple decision trees to incr
 
 Different models were compared based on performance metrics, such as accuracy, precision, recall, and F1 score.
 
-### 5. Handling Overfitting
-To address overfitting, several strategies were implemented:
-
-Cross-Validation: K-fold cross-validation was used to assess the model’s performance on multiple splits of the dataset.
-
-Regularization: Techniques like L1 and L2 regularization were applied to reduce the complexity of the model and improve generalization.
+### 5. Handling Overfitting with Correlation Analysis
+Overfitting was addressed by performing correlation analysis to identify and remove highly correlated features. Features with high correlation were either selected or merged, reducing model complexity and improving generalization. This helped the model avoid overfitting and perform better on unseen data.
 
 ### 6. Simulation
 Simulations were conducted to validate the model’s robustness and ensure that the results were consistent across various scenarios. This also helped in understanding how the model would perform under different conditions.
